@@ -10,6 +10,44 @@ td, th {
     padding: 8px;
 }
 
-tr:nth-child() {
-    background-color: #dddddd;
+tr#numbers td#row1 {
+	background-color: purple;
+	text-align: center;
+	color: white;
 }
+tr#numbers td#row2 {
+	background-color: green;
+	text-align: center;
+	color: white;
+}
+tr#numbers td#row3 {
+	background-color: blue;
+	text-align: center;
+	color: white;
+}
+tr#numbers td#row4 {
+	background-color: red;
+	text-align: center;
+	color: white;
+}
+tr#numbers1 td {
+	text-align: center;
+}
+tr#numbers1 [rowspan] {
+	vertical-align: top;
+	color: yellow;
+	background-color: black;
+}
+tr#numbers2 td#row8 {
+	text-align: center;
+}
+tr#numbers2 td#row9 {
+	text-align: center;
+}
+tr#numbers2 td#row10 {
+	text-align: center;
+}
+tr#number11 [colspan] {
+	text-align: center;
+	color: lightgrey;
+	background-color: #F0F;
